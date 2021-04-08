@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Instagram</title>
+        <style>
+            body {
+                background-color: rgb(250,250,250);
+            }
+            .box {
+                width: 350px;
+                height: 390px;
+                margin: 60px auto;
+                border: 0.25px solid rgb(200,200,200);
+                background-color: white;
+                text-align: center;
+            }
+            h1 {
+                position:relative;
+                top:15px;
+            }
+            .loginbox1 {
+                width:251px;
+                height:36px;
+                margin: 30px auto 0 auto;
+                background-color:rgb(250,250,250);
+                border: 0.25px solid rgb(200,200,200);
+                display:inline-block;
+            }
+            .loginbox2 {
+                width:251px;
+                height:36px;
+                margin: 0 auto;
+                background-color:rgb(250,250,250);
+                border: 0.25px solid rgb(200,200,200);
+                display:inline-block;
+            }
+            .blank {
+                height:6px;
+            }
+            .blank2 {
+                height:12px;
+            }
+            button {
+                text-align: center;
+                font-weight: bold;
+                color: white;
+                background-color: rgb(178,223,252);
+                width: 253px;
+                height: 30px;
+                margin:0 auto;
+                border: none;
+                border-radius: 5px;
+            }
+            .blank3 {
+                height: 20px;
+            }
+            .hr-sect {
+                display: flex;
+                flex-basis: 100%;
+                align-items: center;
+                font-size: 13px;
+                font-weight: bold;
+                color: rgb(180,180,180);
+            }
+            .hr-sect::before {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                font-size: 0px;
+                line-height: 0px;
+                margin: 0px 15px 0px 50px;
+                background: rgb(200,200,200);
+            }
+            .hr-sect::after {
+                content: "";
+                flex-grow: 1;
+                height: 1px;
+                font-size: 0px;
+                line-height: 0px;
+                margin: 0px 50px 0px 15px;
+                background: rgb(200,200,200);
+            }
+            .bottom1 {
+                color: rgb(100,120,160);
+                text-align: center;
+                font-size: 15px;
+                font-weight: bold;
+                position: relative;
+                top: 20px;
+            }
+            .bottom2 {
+                color: rgb(100,120,160);
+                text-align: center;
+                font-size: 12px;
+                font-weight: bold;
+                position:relative;
+                top:45px;
+            }
+            .box2 {
+                width:350px;
+                height: 61px;
+                background-color: white;
+                border: 0.25px solid rgb(200,200,200);
+                position:absolute;
+                left:50%;
+                margin-left:-175px;
+                margin-top:-45px;
+                text-align:center;
+            }
+            .one {
+                position: relative;
+                top:20px;
+            }
+            .two {
+                color:lightskyblue;
+                font-weight:bold;
+                position:relative;
+                top:20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <h1 style="font-family:'Times New Roman', Times, serif">Instagram</h1>
+            <input class="loginbox1" type="text" placeholder=" 전화번호,사용자 이름 또는 이메일">
+            <div class="blank"></div>
+            <input class="loginbox2" type="password" placeholder=" 비밀번호">
+            <div class="blank2"></div>
+            <button type="button">로그인</button>
+            <div class="blank3"></div>
+            <div class="hr-sect">또는</div>
+            <div class="bottom1">Facebook으로 로그인</div>
+            <div class="bottom2">비밀번호를 잊으셨나요?</div>
+        </div>
+        <div class="box2">
+            <span class="one">계정이 없으신가요?</span>
+            <span class="two">가입하기</span>
+        </div>
+        </div>
+    </body>
+</html>
