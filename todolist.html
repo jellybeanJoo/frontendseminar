@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8">
+        <title>todolist</title>
+        <link rel="stylesheet" type="text/css" href="app.css">
+        <script type="text/javascript" src="index.js"></script>
+    </head>
+    <body>
+        <section id="todolist">
+            <div class="input__section">
+                <!-- <form> -->
+                <input type="text" class="item" autofocus="true">
+                <input type="button" class="input__button"><i></i></button>
+                <!-- </form> -->
+            </div>
+            <div id="seperate"></div>
+            <div class="item__list"></div>
+        </section>
+        <section class="clock">
+            <!-- <hr class="clockline"> -->
+            <div class="date_box">
+                <span id="year"></span>
+                <span class="point">.</span>
+                <span id="month"></span>
+                <span class="point">.</span>
+                <span id="date"></span>
+                <span class="point">.</span>
+                <span id="day"></span>
+            </div>
+            <div class="time_box">
+                <span class="txt_lg" id="hours"></span>
+                <span class="mark">:</span>
+                <span class="txt_lg" id="minutes"></span>
+                <span class="mark02">:</span>
+                <span class="txt_lg" id="seconds"></span>
+            </div>
+            <!-- <hr class="clockline"> -->
+        </section>
+        <script src="clock.js"></script>
+        <script src="list.js" defer></script>
+    </body>
+</html>
